@@ -5,7 +5,7 @@
 
 ## Consignes
 
-Affichez chaque score avec son rang via `foreach`. Ignorez les scores nuls avec `continue`, arrêtez la recherche au premier score d’au moins 100 avec `break`. Utilisez un `for` pour afficher trois essais et un `while` pour le décompte final.
+Affichez chaque score avec son rang via `foreach`. Ignorez les scores nuls avec `continue`, arrêtez la recherche au premier score d’au moins 100 avec `break`. Utilisez un `for²` pour afficher trois essais et un `while` pour le décompte final.
 
 ## Vérification
 
