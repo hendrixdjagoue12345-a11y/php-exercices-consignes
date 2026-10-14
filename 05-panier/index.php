@@ -6,3 +6,15 @@ $products = [
     ['name' => 'Souris', 'price' => 30, 'available' => true],
 ];
 // TODO : filter, map, reduce.
+
+ array_filter($products, function ($product) {
+     return $product['available'];
+ });
+ $products = array_values($products);
+
+ $products = array_slice($products, 0, 10);
+
+ $name = array_map(function ($product) {
+     return $product['name'];
+ }, $products);
+
